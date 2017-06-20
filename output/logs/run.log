@@ -1,0 +1,9 @@
+2017-06-14 00:37:54 dev_log : [INFO] 开始测试！
+2017-06-14 00:38:35 dev_log : [INFO] 初始化测试套件完成！
+2017-06-14 21:14:33 dev_log : [INFO] 开始测试！
+2017-06-14 21:15:16 dev_log : [INFO] 初始化测试套件完成！
+2017-06-14 21:51:29 dev_log : [INFO] 开始测试！
+2017-06-14 21:51:58 dev_log : [INFO] 初始化测试套件完成！
+2017-06-14 21:52:01 dev_log : [INFO] 输入：macaca.client.commands.Element@13e39c73 value:12345
+2017-06-14 21:52:05 dev_log : [INFO] 输入：macaca.client.commands.Element@13e39c73 value:12345
+2017-06-14 21:52:10 dev_log : [INFO] 点击：macaca.client.commands.Element@13e39c73

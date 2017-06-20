@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="LoginTest">
+    <!--enabled="true"让测试生效，可根据情况开启或关闭某些测试-->
+    <test name="LoginTest" preserve-order="true">
+        <!--指定参数 0: 启动并安装 app。1 (默认): 卸载并重装 app。 2: 仅重装 app。3: 在测试结束后保持 app 状态。-->
+        <!--<parameter name="reuse" value="1"/>-->
+        <parameter name="platformVersion" value="10.3"/>
+        <parameter name="deviceName" value="iPhone 7 Plus"/>
+        <parameter name="platformName" value="ios"/>
+        <parameter name="port" value="3456"/>
+        <parameter name="udid" value="CD3950ED-3B46-4658-B086-BEF1018ED62D"/>
+        <parameter name="appPath" value="/Users/wuchao/Documents/test_apk/ios-app-bootstrap.app"/>
+        <parameter name="userName" value="12345"/>
+        <parameter name="passWord" value="12345"/>
+        <!--测试Android时需要填写该参数/>-->
+        <parameter name="activity" value="activity"/>
+        <!--指定测试类-->
+        <classes>
+            <class name="com.uitest.macacaautotest.testcase.LoginTest"/>
+            <!--过滤测试类的方法
+            <class name="org.gradle.SimpleTest1">
+                <methods>
+                    <include name="aFastTest" />
+                </methods>
+            </class>-->
+        </classes>
+        <!--指定测试分组-->
+        <!--<groups>
+            <run>
+                &lt;!&ndash;包含&ndash;&gt;
+                <include name="fast"/>
+                &lt;!&ndash;排除&ndash;&gt;
+                <exclude name="slow"/>
+            </run>-->
+        </test>
+</suite>
